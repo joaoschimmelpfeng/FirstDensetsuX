@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+   <!-- English -->
+   <language name="en_US" >
+      <string key="mapA1_Dialog1" value="The necromancer's tower is above, we need to prevent his plans of destroying the world. Squeek!" />
+       <string key="mapA5_Dialog1" value="Remember that you can push things. Squeek!"/>
+       <string key="mapF6_Dialog1" value="The arrows need to be pointing to the ground."/>
+       <string key="mapF6_Dialog2" value="The arrows in right positions must be for the treasure shows up."/>
+       <string key="mapF6_Dialog3" value="In your hand the answer is."/>
+       <string key="mapF6_Dialog4" value="Take care to not drop."/>
+       <string key="mapF6_Dialog5" value="A secret has been revealed" />
+       <string key="mapB1_Dialog1" value="The door is locked."/>
+       <string key="mapB1_Dialog2" value="Ok, it seems that we are now, inside the tower! Squeek." />
+       <string key="mapD1_Dialog1" value="A secret has been revealed" />
+       <string key="map_final_dialog" value="Congratulations! You have defeated the necromancer, the world is safe again!"/>
+       <string key="map_final_dialog1" value="Thank you for playing!"/>
+       <!-- Items -->
+      <string key="gotAxe" value="You got: Axe. Now you can destroy wooden things."/>
+      <string key="gotRed" value="You got:Red potion. What don't kills you, probably will make you fat."/>
+      <string key="gotBlue" value="You got: Blue Potion. When the pigs fly."/>
+      <string key="gotHaste" value ="You got: Light Boots. A faster way!"/>
+      <string key="gotSword" value="Espada de Onyx, com resistencia total a magias." />
+   </language>
+   
+   <!-- Brazilian portuguese -->
+   <language name="pt_BR" >
+       <string key="mapA1_Dialog1" value="A torre do necromante é logo acima, precisamos impedir seus planos maléficos. Squeek!" />
+       <string key="mapA5_Dialog1" value="Lembre-se de que você pode empurrar coisas. Squeek!"/>
+       <string key="mapF6_Dialog1" value="As setas pro chão devem apontar."/>
+       <string key="mapF6_Dialog2" value="Se as setas, em posição correta ficarem, um tesouro aparecerá."/>
+       <string key="mapF6_Dialog3" value="Nas suas mãos a resposta está!"/>
+       <string key="mapF6_Dialog4" value="Cuidado para não derrubar."/>
+       <string key="mapF6_Dialog5" value="Um segredo foi desvendado." />
+       <string key="mapB1_Dialog1" value="A porta está trancada.."/>
+       <string key="mapB1_Dialog2" value="É parece que estamos dentro da torre! squeek." />
+       <string key="mapD1_Dialog1" value="Um segredo foi desvendado." />
+       <string key="map_final_dialog" value="Parabéns! você derrotou o necromante, e o mundo está seguro outra vez!"/>
+       <string key="map_final_dialog1" value="Obrigado por jogar!"/>
+       <!-- Items -->
+      <string key="gotAxe" value="Você Ganhou: Machado. Agora você pode       destruir coisas de    madeira!"/>
+      <string key="gotRed" value="Poção Vermelha adquirida: Dizem que oque não mata... engorda."/>
+      <string key="gotBlue" value="Poção Azul adquirida: Quando os porcos voam."/>
+      <string key="gotHaste" value ="Botas Leves, a velocidade sem conforto."/>
+      <string key="gotSword" value="Espada de Mythril, com resistencia total a magias." />
+   </language>
+</languages>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="9" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="TileInterior" tilewidth="32" tileheight="32">
+  <image source="/TileSheet2.png" width="256" height="256"/>
+  <tile id="7">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="stairs" value=""/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="hole" value=""/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="river" value=""/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="E1" value=""/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="E2" value=""/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="E3" value=""/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="E4" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Bot" width="10" height="9">
+  <data encoding="csv">
+10,10,10,10,10,10,10,10,10,10,
+10,9,9,9,9,9,9,9,9,10,
+10,1,1,1,1,1,1,1,1,10,
+10,1,1,32,1,1,32,1,1,10,
+10,1,1,1,1,1,1,1,1,10,
+10,1,32,1,1,1,1,32,1,10,
+10,1,1,1,1,1,1,1,1,10,
+10,10,10,10,1,1,10,10,10,10,
+10,10,10,10,1,1,10,10,10,10
+</data>
+ </layer>
+ <layer name="Bot2" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,15,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Top" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,10,0,0,10,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,10,0,0,0,0,10,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,10,10,0,0,0,0
+</data>
+ </layer>
+ <layer name="Collision" width="10" height="9" visible="0">
+  <data encoding="csv">
+8,8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8,
+8,7,7,7,7,7,7,7,7,8,
+8,7,7,8,7,7,8,7,7,8,
+8,7,7,7,7,7,7,7,7,8,
+8,7,8,7,7,7,7,8,7,8,
+8,7,7,7,7,7,7,7,7,8,
+8,8,8,8,7,7,8,8,8,8,
+8,8,8,8,7,7,8,8,8,8
+</data>
+ </layer>
+ <layer name="Entity" width="10" height="9" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,15,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,57,57,0,0,0,0
+</data>
+ </layer>
+</map>

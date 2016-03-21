@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="9" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="TileInterior" tilewidth="32" tileheight="32">
+  <image source="/TileSheet2.png" width="256" height="256"/>
+  <tile id="7">
+   <properties>
+    <property name="Solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="hole" value=""/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="river" value=""/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="E1" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Bot" width="10" height="9">
+  <data encoding="csv">
+10,10,10,10,1,10,10,10,10,10,
+10,10,10,10,1,10,10,10,10,10,
+10,10,10,10,1,10,10,10,10,10,
+10,10,10,10,1,10,10,10,10,10,
+10,10,10,24,1,23,10,10,10,10,
+10,10,10,1,1,1,10,10,10,10,
+10,10,10,1,1,1,10,10,10,10,
+10,10,10,25,25,25,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10
+</data>
+ </layer>
+ <layer name="Bot2" width="10" height="9">
+  <data encoding="csv">
+0,0,0,13,0,14,0,0,0,0,
+0,0,0,13,0,14,0,0,0,0,
+0,0,0,13,0,14,0,0,0,0,
+0,0,20,11,0,11,21,0,0,0,
+0,0,20,11,0,11,14,0,0,0,
+0,0,13,0,0,0,14,0,0,0,
+0,0,13,0,0,0,14,0,0,0,
+0,0,13,0,0,0,14,0,0,0,
+0,0,19,12,12,12,18,0,0,0
+</data>
+ </layer>
+ <layer name="Top" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,13,0,14,0,0,0,0,
+0,0,13,13,0,14,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Collision" width="10" height="9" visible="0">
+  <data encoding="csv">
+8,8,8,8,7,8,8,8,8,8,
+8,8,8,8,7,8,8,8,8,8,
+8,8,8,8,7,8,8,8,8,8,
+8,8,8,8,7,8,8,8,8,8,
+8,8,8,8,7,8,8,8,8,8,
+8,8,8,7,7,7,8,8,8,8,
+8,8,8,7,7,7,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8
+</data>
+ </layer>
+ <layer name="Entity" width="10" height="9" visible="0">
+  <data encoding="csv">
+0,0,0,0,57,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,25,25,25,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
